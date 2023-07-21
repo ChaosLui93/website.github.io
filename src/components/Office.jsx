@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.2.10 public/models/untitled.glb
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Office(props) {
+export default function Building (props) {
   const { nodes, materials } = useGLTF('./models/untitled.glb')
   return (
     <group {...props} dispose={null}>

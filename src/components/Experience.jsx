@@ -5,7 +5,7 @@ import Building from "./Office";
 export const Experience = () => {
   return (
     <>
-      <ambientLight intensity={1} />
+      <ambientLight intensity={1}/>
       <OrbitControls />
       <Building />
     </>
